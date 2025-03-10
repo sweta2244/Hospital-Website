@@ -1,0 +1,34 @@
+.topMessage {
+    color: white;
+    display: flex;
+    /* flex-direction:column (this arranges items in vertical(column)) */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #234cbb;
+    padding:1rem;
+  }
+  .topMessage-right {
+    display: flex;
+    gap: 23px;
+  }
+  .topMessage-right img {
+    width: 18px;
+    height: 18px;
+  }
+  .topMessage-right-element {
+    display: flex;
+    gap: 7px;
+  }
+  @media (max-width:900px){
+    .topMessage{
+        display: none;
+    }
+  }
+  .individual-button button{
+    background-color: #234CBB;
+    border:none;
+    color:white;
+  }
+  .individual-button button:hover{
+    cursor:pointer;
+  }

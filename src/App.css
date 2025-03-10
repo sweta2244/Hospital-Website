@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", serif;
+}
+@media(max-width:600px){
+  h1{
+    font-size:24px !important;
+    line-height: 32px !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+  button{
+    font-size: 14px !important;
+
+  }
+
+}
+@media(max-width:400px){
+  h1{
+    font-size:20px !important;
+    line-height: 30px !important;
+  }
+  p{
+    font-size: 12px !important;
+  }
+  button{
+    font-size: 12px !important;
+
+  }
+
+}
+
+

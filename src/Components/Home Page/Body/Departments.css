@@ -1,0 +1,50 @@
+.departments{
+    background-color: #899ED7;
+    padding: 0px 40px 60px 40px;
+    text-align: center;
+}
+.departments-main{
+    background-color: #325AC8;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding-right: 1%;
+    padding-left:1%;
+}
+.departments-flex{
+    display:flex;
+    gap:3%;
+}
+.department-box{
+    background-color: white;
+    border-radius: 10px;
+    padding:10px;
+    padding-top: 0px;
+    width:99%;
+    height:100px;
+    align-content: center;
+    /* padding-bottom: 100px; */
+    transform: translate(0px,30px);
+}
+.icon-box{
+    background-color: gray;
+    border-radius: 200px;
+    width:25%;
+    aspect-ratio: 1/1;
+    font-size: 20px;
+    align-content: center;
+    transform: translate(150%,0);
+}
+.icon-box img{
+    width:60%;
+}
+@media(max-width:740px){
+    .departments-flex{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10%;
+    }
+    .department-box{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}

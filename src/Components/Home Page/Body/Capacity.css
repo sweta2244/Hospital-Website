@@ -1,0 +1,62 @@
+.Capacity{
+    position: relative;
+    margin-top:30px;
+    background-image: url('/Image/background5.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top:40px;
+    color:white;
+    /* z-index:-1; */
+}
+.Capacity-back{
+    background-color: aqua;
+    opacity: 0.4;
+    position: absolute;
+    z-index:1;
+    height:100%;
+    width:100%;
+    top:0;
+    
+}
+.Capacity-icon{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px;
+    padding:10px;
+}
+.Capacity-individual{
+    text-align: center;
+    line-height: 30px;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding:15px;
+}
+.Capacity-individual img{
+    width:5vw;
+}
+@media(max-width:634px){
+    .Capacity-icon{
+        display:grid;
+        grid-template-columns: repeat(4,1fr);
+        gap:20px;
+        padding:10px;
+    }
+}
+@media(max-width:510px){
+    .Capacity-icon{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+        padding:10px;
+    }
+}
+@media(max-width:416px){
+    .Capacity-icon{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+        padding:10px;
+    }
+}

@@ -1,0 +1,43 @@
+.icons-3{
+    display:flex;
+    gap:5px;
+    align-items: center;
+}
+.scroll1{
+    height:34rem;
+    overflow-y: scroll;
+}
+.indidepart1{
+    padding:20px;
+    border: 1px solid #00000033;
+    margin-bottom:15px;
+    display:flex;
+    gap:18%;
+}
+.indidepart1 button{
+    padding:5px;
+    border: 1px solid #00000033;
+    margin-bottom:15px;
+}
+.align-right{
+    text-align: right;
+}
+.scroll1::-webkit-scrollbar{
+    width:10px;
+}
+.scroll1::-webkit-scrollbar-track{
+    background: #90ABF2;
+}
+.scroll1::-webkit-scrollbar-thumb{
+    background: #4E69AF;
+}
+
+@media(max-width:660px){
+    .flex-main-div{
+        display:grid !important;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .main--box{
+        width: 100% !important;
+    }
+}

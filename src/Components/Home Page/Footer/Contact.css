@@ -1,0 +1,93 @@
+.contact {
+  margin-top: 9rem;
+  padding: 0 48px;
+  padding-top: 200px;
+  background-image: url("/Image/b-round.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.contact-logo {
+  text-align: center;
+  background-image: url("/Image/lastouter.png");
+  background-size: 130px;
+  background-repeat: no-repeat;
+  padding:120px;
+  margin-bottom: 4%;
+  position:absolute;
+  top:-10%;
+  left:50%;
+  transform: translate(-32%,10%);
+}
+
+.contact-logo img {
+  width: 80px;
+  position: absolute;
+  top:9%;
+  right:56%;
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.contact ul {
+  list-style-type: none;
+}
+.contact-flex p {
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+
+.contact-department {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.white-icon li {
+  display: flex;
+  gap: 10px;
+  line-height: 25px;
+}
+.white-icon img {
+  background-color: White;
+  padding: 5px;
+  border-radius: 20px;
+  width: 5%;
+  height: 2%;
+  aspect-ratio: 1/1;
+}
+@media (max-width: 1000px) {
+  .contact-flex {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 10%;
+  }
+  .contact-individual {
+    margin-bottom: 50px;
+  }
+  .quick {
+    display: none;
+  }
+  .contact-depart {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 640px) {
+  .hidden-in-640 {
+    display: none;
+  }
+}
+@media(max-width: 520px){
+    .contact-flex{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .contact-depart p{
+        text-align: left !important;
+    }
+}

@@ -1,0 +1,16 @@
+.faq-title{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* backgroundColor:"rgb(233, 238, 238)" */
+.faq-box{
+    background-color: white;
+    padding:1%;
+    border-radius: 10px;
+}
+.btn{
+    border-style: none;
+    height:10px;
+    background-color: white;
+}

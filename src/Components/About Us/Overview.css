@@ -1,0 +1,11 @@
+@media (max-width:1190px){
+    .second-flex{
+        display:grid !important;
+    }
+    .third-grid{
+        display:grid;
+    }
+    .width{
+        transform: translate(25%,0);
+    }
+}

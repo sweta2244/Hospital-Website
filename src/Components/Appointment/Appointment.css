@@ -1,0 +1,92 @@
+.white-background {
+  position: absolute;
+  color: black;
+  top: 50%;
+  background-color: #FAFAFA;
+  width: 50%;
+  height: fit-content;
+  transform: translate(50%, -50%);
+  box-shadow: mediumspringgreen;
+  padding: 40px 15px;
+  border-radius: 30px;
+  z-index: 100;
+}
+
+/* onClick={()=>handlePage(2)} */
+
+.white-background ul {
+  list-style-type: none;
+}
+
+.checked-stage-number {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 50px;
+  padding:10px;
+  text-align: center;
+}
+
+.num{
+  height: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+  padding: 1%;
+  transform: translate(93px);
+  margin-bottom: 10px;
+}
+
+.input-box {
+  margin-top: 55px;
+  border: 1px solid grey;
+  padding: 10px;
+  padding-bottom: 0;
+  border-radius: 20px;
+  width:97%;
+  /* min-height: 260px;
+  transition: min-height 0.3s ease-in-out; */
+}
+
+.input-box h3{
+  color:#00A0AA;
+}
+
+.input-box-padding {
+  padding: 10px;
+}
+
+.input-box-padding select {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.input-fields {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+  display: block;
+}
+
+.input-fields input,
+.input-fields select {
+  width: 85%;
+  padding: 10px;
+  margin-top: 9px;
+}
+
+.inputbox-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.input-fields-2{
+  margin-bottom:20px;
+}
+
+.input-fields-2 input,.input-fields-2 textarea{
+  width:99%;
+  margin-top:15px;
+  border-radius: 4px;
+}

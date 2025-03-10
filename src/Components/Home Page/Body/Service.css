@@ -1,0 +1,35 @@
+*{
+  word-break:normal;
+}
+.service-individual {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.individual {
+  height: 95%;
+}
+.box {
+  display: flex !important;
+  border-top: 1px solid black;
+  padding: 10px 0;
+}
+
+@media (max-width: 997px) {
+  .service-individual {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 751px) {
+  .service-individual {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    overflow: hidden;
+  }
+  .individual {
+    height: fit-content;
+  }
+}
