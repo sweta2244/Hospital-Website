@@ -3,7 +3,7 @@ export default function Add({handle}){
     return <div className="relative">
         <img src="Image/background2.png" alt="background2"/>
         <div className="absolute">
-            <div style={{paddingTop:"50px",fontSize:"15px",padding:"10px"}} className="message">
+            <div style={{paddingTop:"50px",fontSize:"15px",padding:"10px",textAlign:"center"}} className="message">
                 <h1>Schedule an imperson or virtual appointment today</h1>
                 <div className="button-flex">
                     <button

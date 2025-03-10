@@ -1,4 +1,4 @@
-import Top1 from "../About Us/Top1";
+import Top1 from "../About Us/Top1.jsx";
 import { RiTimeFill } from "react-icons/ri";
 import { FaUser } from "react-icons/fa";
 import { RiNavigationLine } from "react-icons/ri";

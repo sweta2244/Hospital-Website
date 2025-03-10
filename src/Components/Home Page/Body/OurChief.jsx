@@ -1,5 +1,5 @@
 import "./OurChief.css";
-import IndividualConsultants from "./IndividualConsultants";
+import IndividualConsultants from "./IndividualConsultants.jsx";
 export default function OurChief(){
     return <div className="consultants-main">
         <h1>Our Cheif Consultants</h1><br/>

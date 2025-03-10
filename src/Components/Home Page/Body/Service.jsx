@@ -4,7 +4,6 @@ export default function Service() {
     <div className="service">
       <h1 style={{ textAlign: "center" }}>We Provide Best Health Service</h1>
       <br />
-
       <div className="service-individual">
         <Individual
           title="Radiology Services"

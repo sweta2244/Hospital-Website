@@ -1,4 +1,4 @@
-import Top1 from './Top1';
+import Top1 from './Top1.jsx';
 import { FaHands } from "react-icons/fa";
 export default function CoreValues() {
   return (

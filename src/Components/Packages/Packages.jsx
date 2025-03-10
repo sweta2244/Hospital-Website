@@ -1,4 +1,4 @@
-import Top1 from "../About Us/Top1";
+import Top1 from "../About Us/Top1.jsx";
 import "./Packages.css";
 import Logo2 from "/Image/package-icon.svg";
 

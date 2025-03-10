@@ -22,17 +22,17 @@ const menuItems = [
     name: "Services",
     dropdown: [
       { name: "Pharmacy Services", path: "/Services/Pharmacy-Services" },
-      { name: "Physiotherapy Services" },
-      { name: "OT Services" },
+      { name: "Physiotherapy Services", path: "/Services/Physiotheraphy-Services" },
+      { name: "OT Services", path: "/Services/Ot-Services" },
     ],
   },
   { name: "Doctors", path: "/Doctors" },
   {
     name: "Department",
     dropdown: [
-      { name: "Dental", path: "/Department" },
-      { name: "Dermatologist" },
-      { name: "Cardiology" },
+      { name: "Dental", path: "/Department/Dental" },
+      { name: "Drmatologist", path: "/Department/Drmatologist" },
+      { name: "Cardiology", path: "/Department/Cardiology" },
     ],
   },
   { name: "Career", path: "/Career" },

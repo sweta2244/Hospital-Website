@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Message.css";
-import Top1 from "./Top1";
+import Top1 from "./Top1.jsx";
 export default function Message() {
     const identification=[{index:0,name:"Ram1",position:"position1"},{index:1,name:"Ram2",position:"position2"},{index:2,name:"Ram3",position:"position3"}];
     const[isClicked,setIsClicked]=useState({index:0,name:"Ram1",position:"position1"});

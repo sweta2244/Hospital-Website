@@ -1,5 +1,4 @@
-import { useState } from "react";
-import Top1 from "../About Us/Top1";
+import Top1 from "../About Us/Top1.jsx";
 export default function Departments1() {
     const names=["Laser Skin Rejuvenation","Co2 Fractional Laser","Tatoo And Birthmark Removal","Hydrafacial","Derma Roller","Micro Botox","Fillers","Mesotherapy","Laser Skin Resurfacing","Picosecond Laser","Diode Laser Hair Removal","LED Light Therapy","Botox","Microdermabrasion","Chemical Peeling","PRP Therapy"]
     // const [input,setInput]=useState([]);

@@ -1,4 +1,4 @@
-import Top1 from "../About Us/Top1";
+import Top1 from "../About Us/Top1.jsx";
 import "./Schedules.css";
 export default function Schedules() {
   return (

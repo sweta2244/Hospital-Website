@@ -1,6 +1,6 @@
 import Why from "../Home Page/Body/Why";
 import "./Overview.css";
-import Top1 from "./Top1";
+import Top1 from "./Top1.jsx";
 export default function Overview() {
   return (
     <div>

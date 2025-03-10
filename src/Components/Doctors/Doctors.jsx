@@ -1,6 +1,6 @@
 import "../Home Page/Body/OurChief.css";
-import IndividualConsultants from "../Home Page/Body/IndividualConsultants";
-import Top1 from "../About Us/Top1"
+import IndividualConsultants from "../Home Page/Body/IndividualConsultants.jsx";
+import Top1 from "../About Us/Top1.jsx"
 export default function Doctors() {
   return (
     <div>

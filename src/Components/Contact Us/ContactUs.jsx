@@ -1,4 +1,4 @@
-import Top1 from "../About Us/Top1";
+import Top1 from "../About Us/Top1.jsx";
 import React from "react";
 import "./ContactUs.css";
 import { IoLocationOutline } from "react-icons/io5";

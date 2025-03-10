@@ -1,5 +1,5 @@
 import { TbTargetArrow } from "react-icons/tb";
-import Top1 from './Top1'
+import Top1 from './Top1.jsx'
 import { BiLowVision } from "react-icons/bi";
 
 export default function MissionVision() {

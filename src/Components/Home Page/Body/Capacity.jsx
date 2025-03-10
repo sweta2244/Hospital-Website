@@ -7,7 +7,7 @@ export default function Capacity() {
       <div style={{ position: "relative", zIndex: "111" }}>
         <h1>Our Capacity</h1>
         <div className="Capacity-icon">
-          {Array.from({length:10},(index)=>index).map((i)=><CIcon key={i}/>)}
+          {Array.from({length:10}).map((_,index)=><CIcon key={index}/>)}
         </div>
       </div>
     </div>

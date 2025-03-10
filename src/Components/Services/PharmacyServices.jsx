@@ -1,5 +1,5 @@
 import "./PharmacyServices.css"
-import Top1 from "../About Us/Top1";
+import Top1 from "../About Us/Top1.jsx";
 export default function PharmacyServices() {
   return (
     <div>

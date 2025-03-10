@@ -1,5 +1,5 @@
-import IndividualConsultants from "../Home Page/Body/IndividualConsultants";
-import Top1 from "./Top1";
+import IndividualConsultants from "../Home Page/Body/IndividualConsultants.jsx";
+import Top1 from "./Top1.jsx";
 
 export default function Executive() {
   return (
