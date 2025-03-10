@@ -28,6 +28,7 @@ import Appointment from "./Components/Appointment/Appointment";
 import ContactUs from "./Components/Contact Us/ContactUs";
 import Why from "./Components/Home Page/Body/Why";
 import Map from "./Components/Map/Map";
+import Executive from "./Components/About Us/Executive";
 
 
 export default function App() {
@@ -49,6 +50,9 @@ export default function App() {
           <Route path="About-Us/Mission&Vision" element={<MissionVision />} />
           <Route path="About-Us/Core-Values" element={<CoreValues />} />
           <Route path="About-Us/Message" element={<Message />} />
+          <Route path="About-Us/Executive-Comittee" element={<Executive />} />
+
+
           <Route
             path="Services/Pharmacy-Services"
             element={<PharmacyServices />}

@@ -15,7 +15,7 @@ const menuItems = [
       { name: "Mission & Vision", path: "/About-Us/Mission&Vision" },
       { name: "Core Values", path: "/About-Us/Core-Values" },
       { name: "Messages", path: "/About-Us/Message" },
-      { name: "Executive Committee" },
+      { name: "Executive Committee", path:"/About-Us/Executive-Comittee"},
     ],
   },
   {
