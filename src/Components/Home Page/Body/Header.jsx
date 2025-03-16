@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 export default function Header() {
   return (
@@ -9,7 +10,7 @@ export default function Header() {
           alt="doctor2"
           style={{
             position: "absolute",
-            zIndex: "11",
+            zIndex: "-1",
             width: "75%",
             height:"500px",
             marginTop: "20px",
@@ -31,9 +32,7 @@ export default function Header() {
             padding: "18px 0",
           }}
         >
-          Your Journey
-          <br />
-          to Better Health Starts Here
+          Your Journey to Better Health Starts Here
         </h1>
         <p
           style={{
@@ -53,7 +52,7 @@ export default function Header() {
           beginning. In 1979 super-specialization medical services was expanded
           in this hospital.
         </p>
-        <button
+        <Link to="/About-Us/Overview"
           style={{
             backgroundColor: " #00A0AA",
             borderRadius: "8px",
@@ -64,7 +63,7 @@ export default function Header() {
           }}
         >
           Discover More
-        </button>
+        </Link>
       </div>
     </div>
   );

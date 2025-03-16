@@ -6,6 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import "./Career.css";
+import {Link} from "react-router-dom";
 export default function Career() {
   return (
     <div>
@@ -72,7 +73,7 @@ function Vacancy() {
             marginLeft: "300px",
           }}
         >
-          Drop Your Profile/CV
+          <Link to="/SubCareer">Drop Your Profile/CV</Link>
         </button>
       </div>
       <h2 style={{ marginTop: "20px", marginBottom: "20px", color: "#6D6E70" }}>

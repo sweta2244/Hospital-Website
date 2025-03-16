@@ -1,0 +1,14 @@
+.form-cv input,.form-cv textarea,.form-cv select,.form-cv p{
+    padding:15px;
+    border-radius: 10px;
+    border: 1px solid #c6c6c6;
+    margin-top:15px;
+    font-size:1rem;
+}
+input[type="file"]::-webkit-file-upload-button{
+    border:none;
+    background-color: white;
+    border-right: 1px solid rgb(135, 129, 129);
+    padding-right: 10px;
+    margin-right: 10px;
+}

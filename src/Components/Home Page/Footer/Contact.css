@@ -36,6 +36,7 @@
   justify-content: space-between;
   margin-bottom: 10px;
 }
+
 .contact ul {
   list-style-type: none;
 }
@@ -61,6 +62,9 @@
   width: 5%;
   height: 2%;
   aspect-ratio: 1/1;
+}
+.contact-individual ul li Link{
+  color:white;
 }
 @media (max-width: 1000px) {
   .contact-flex {

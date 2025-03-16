@@ -81,20 +81,20 @@ export default function Appointment({ showAppointment, handle }) {
         </p>
 
         <h2 style={{ textAlign: "center" }}>Book An Appointment</h2>
-        <ul className="checked-stage-number">
-          <li style={page === 1 ? { color: "#00A0AA" } : { color: "#9B9B9B" }}>
-            <p className="num">1</p>
-            <p className="num-p">Doctor Information</p>
-          </li>
-          <li style={page === 2 ? { color: "#00A0AA" } : { color: "#9B9B9B" }}>
-            <p className="num">2</p>
-            <p className="num-p">Patient Information</p>
-          </li>
-          <li style={page === 3 ? { color: "#00A0AA" } : { color: "#9B9B9B" }}>
-            <p className="num">3</p>
-            <p className="num-p">Schedule</p>
-          </li>
-        </ul>
+          <ul className="checked-stage-number">
+            <li>
+              <p className="num num1" style={page === 1 ? {color:"white",backgroundColor: "#00A0AA" } : { color:"#9B9B9B",backgroundColor:"rgb(214, 208, 208)"}}>1</p>
+              <p className="num-p" style={page === 1 ? { color: "#00A0AA" } : { color: "#9B9B9B" }}>Doctor Information</p>
+            </li>
+            <li>
+              <p className="num" style={page === 2 ? {color:"white",backgroundColor: "#00A0AA" } : { color:"#9B9B9B",backgroundColor:"rgb(214, 208, 208)"}}>2</p>
+              <p className="num-p" style={page === 2 ? { color: "#00A0AA" } : { color: "#9B9B9B" }}>Patient Information</p>
+            </li>
+            <li>
+              <p className="num" style={page === 3 ? {color:"white",backgroundColor: "#00A0AA" } : { color:"#9B9B9B",backgroundColor:"rgb(214, 208, 208)"}}>3</p>
+              <p className="num-p" style={page === 3 ? { color: "#00A0AA" } : { color: "#9B9B9B" }}>Schedule</p>
+            </li>
+          </ul>
         {page == 1 && (
           <Step1
             depart={depart}
@@ -347,3 +347,4 @@ function Step3({ handlePage, handleProcess }) {
     </div>
   );
 }
+

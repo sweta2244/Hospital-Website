@@ -1,8 +1,8 @@
 import "./Capacity.css";
 export default function Capacity() {
   return (
-    <div className="Capacity">
-      <div className="Capacity-back"></div>
+    <div className="Capacity-background">
+      <div className="Capacity-back-color"></div>
 
       <div style={{ position: "relative", zIndex: "111" }}>
         <h1>Our Capacity</h1>
@@ -13,6 +13,7 @@ export default function Capacity() {
     </div>
   );
 }
+
 function CIcon() {
   return (
     <div className="Capacity-individual">

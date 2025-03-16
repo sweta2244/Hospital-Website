@@ -62,7 +62,7 @@ function Individual({ title, description, img, bcolor, color }) {
         {title}
       </h1>
       <hr style={{marginBottom:"10px"}}/>
-      <div style={{position:"relative"}}>
+      <div>
         <img
           src={img}
           alt="alt"

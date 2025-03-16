@@ -7,18 +7,30 @@
     padding:48px;
     margin-bottom: 25rem;
 }
+
 .say-button{
     display:flex;
     gap:50%;
 }
+
 .say-box{
     background: linear-gradient(100.44deg, #234CBB 2.88%, #00A0AA 104.18%);
     width:100%;
     padding:30px;
     border:10px solid white;
     border-radius: 45px;
+    /* transition: transform 0.15s ease-in-out;
+    transform:translateX(-100%); */
 }
+.say-image img{
+    width: 100px;
+    height:150px;
+}
+.say-image{
+    background-color:whitesmoke;
+    display:flex;
 
+}
 
 @media(max-width:600px){
     .say-button{

@@ -1,20 +1,21 @@
 .navbar {
   display: flex;
   overflow: hidden;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   align-items: center;
   justify-content: space-between;
 }
-.nav-link-flex,a{
+.nav-link-flex,
+a {
   text-decoration: none;
-  color:black;
-  align-items:center;
+  color: black;
+  align-items: center;
 }
-.nav-link-flex:hover{
-  background-image: linear-gradient(93.57deg, #00A0AA -31.49%, #234CBB 109.77%);
+.nav-link-flex:hover {
+  background-image: linear-gradient(93.57deg, #00a0aa -31.49%, #234cbb 109.77%);
   background-repeat: no-repeat;
   background-size: 100% 3px;
-  background-position: 0 100%;
+  background-position: 0% 100%;
   text-decoration: none;
 }
 .logo-section {
@@ -22,7 +23,7 @@
   gap: 1rem;
   align-items: center;
 }
-.link1:hover{
+.link1:hover {
   background-image: none;
 }
 .navbar-right ul {
@@ -39,51 +40,51 @@
   font-size: 24px;
 }
 @media (max-width: 1230px) {
-  .navbar-right,
-  .navbar button {
+  .navbar-right {
     display: none;
   }
   .menu-bar-icon {
     display: block;
   }
-  .dropdown-menu{
-    position:absolute;
-    top:0px !important;
+  .dropdown-menu {
+    position: absolute;
+    top: 0px !important;
   }
-  .three-lines{
-    margin-left:30px;
+  .three-lines {
+    margin-left: 30px;
   }
-  .lines-list{
+  .lines-list {
     list-style-type: none;
   }
-  .visibilityFrame{
+  .visibilityFrame {
     display: block !important;
   }
 }
-.visibilityFrame{
+.visibilityFrame {
   display: none;
 }
-.dropdown-menu{
-  position:absolute;
-  top:112px;
+.dropdown-menu {
+  position: absolute;
+  top: 112px;
   background-color: white;
-  padding-left:20px;
-  padding-top:23px;
-  padding-right:20px;
+  width: 200px;
 }
 
-.dropdown-menu-li{
-  display:grid !important;
+.dropdown-menu-li {
+  display: grid !important;
 }
-/* .no-scroll {
-  overflow: hidden;
-  opacity: .5;
-  background-color: grey;
-} */
+.dropdown-menu-list {
+  transition: all 0.2s ease;
+}
+.dropdown-menu-list:hover {
+  border-left: 5px solid #0066cc;
+  background-color: #c7edf7ab;
+  padding: 10px;
+}
 
-.back-white{
-  opacity:1 !important;
+.back-white {
+  opacity: 1 !important;
 }
-.three-lines{
-  height:calc(100vh - 124px);
+.three-lines {
+  height: calc(100vh - 124px);
 }

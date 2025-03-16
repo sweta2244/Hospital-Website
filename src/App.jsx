@@ -8,12 +8,12 @@ import Add from "./Components/Home Page/Body/Add.jsx";
 import OurChief from "./Components/Home Page/Body/OurChief.jsx";
 import Departments from "./Components/Home Page/Body/Departments.jsx";
 import Capacity from "./Components/Home Page/Body/Capacity.jsx";
-import News from "./Components/Home Page/Body/News.jsx";
+import News from "./Components/News/News.jsx";
 import Faq from "./Components/Home Page/Body/Faq.jsx";
 import Say from "./Components/Home Page/Footer/Say.jsx";
 import Contact from "./Components/Home Page/Footer/Contact.jsx";
 import Overview from "./Components/About Us/Overview.jsx";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import PharmacyServices from "./Components/Services/PharmacyServices.jsx";
 import Departments1 from "./Components/Department/Departments1.jsx";
 import Departments2 from "./Components/Department/Departments2.jsx";
@@ -31,7 +31,11 @@ import ContactUs from "./Components/Contact Us/ContactUs.jsx";
 import Why from "./Components/Home Page/Body/Why.jsx";
 import Map from "./Components/Map/Map.jsx";
 import Executive from "./Components/About Us/Executive.jsx";
-
+import Department from "./Components/Department/Department.jsx";
+import SubCareer from "./Components/Career/SubCareer.jsx";
+import ImageGallery from "./Components/Media/ImageGallery.jsx";
+import VideoGallery from "./Components/Media/VideoGallery.jsx";
+import ScrollTop from "./Components/ScrollTop.jsx";
 
 
 export default function App() {
@@ -45,8 +49,8 @@ export default function App() {
         <TopMessage
           handle={handleAppointment}
         />
-
         <Navigation />
+        <ScrollTop/>
         <Routes>
           <Route path="/" element={<Homepage handle={handleAppointment} />} />
           <Route path="About-Us/Overview" element={<Overview />} />
@@ -55,6 +59,7 @@ export default function App() {
           <Route path="About-Us/Message" element={<Message />} />
           <Route path="About-Us/Executive-Comittee" element={<Executive />} />
 
+          <Route path="Department" element={<Department />} />
 
           <Route
             path="Services/Pharmacy-Services"
@@ -75,8 +80,16 @@ export default function App() {
           <Route path="Department/Drmatologist" element={<Departments2 handle={handleAppointment}/>} />
           <Route path="Department/Cardiology" element={<Departments3 />} />
 
+          <Route path="News" element={<News />} />
+
           <Route path="Career" element={<Career />} />
-          <Route path="Media" element={<Homepage />} />
+          <Route path="SubCareer" element={<SubCareer />} />
+
+
+          <Route path="Media/Image-Gallery" element={<ImageGallery />} />
+          <Route path="Media/Video-Gallery" element={<VideoGallery />} />
+          <Route path="Media/Blogs" element={<Homepage />} />
+
           <Route path="Our-Schedules" element={<Schedules />} />
           <Route path="Packages" element={<Packages />} />
           <Route path="Contact-Us" element={<ContactUs />} />
