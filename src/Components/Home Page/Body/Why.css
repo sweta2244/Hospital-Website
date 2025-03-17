@@ -1,7 +1,7 @@
 .background-graphic{
   background: linear-gradient(93.57deg, #00A0AA -31.49%, #234CBB 109.77%);
   display:flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   height:20rem;
 }
 .textz{
@@ -42,5 +42,11 @@
   }
   .textz{
     width:95%;
+  }
+}
+
+@media(max-width:600px){
+  .ten-icons{
+  grid-template-columns: repeat(4,1fr);
   }
 }

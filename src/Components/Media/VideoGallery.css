@@ -1,0 +1,15 @@
+.video-image{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+}
+
+.iframe-video{
+    height:420px;
+    background-color: pink;
+}
+
+.iframe-video iframe{
+    transform: translate(10px,10px);
+    border-radius: 10px;
+}

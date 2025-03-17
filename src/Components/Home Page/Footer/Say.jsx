@@ -21,7 +21,7 @@ export default function Say() {
     {
       message:
         "South City Himal Hospital is a multi-disciplinary tertiary care hospital situated in Kathmandu. With over 25 years of experience and expertise, we have been providing quality and affordable healthcare to the community.",
-      name: "Dr.Samrakshan Poudel",
+      name: "Dr.Samir Thapa",
       position: "Senior Cardiothoracic surgeon",
       img: "/Image/3p.png",
     },

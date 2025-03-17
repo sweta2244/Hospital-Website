@@ -33,6 +33,13 @@ export default function Departments3() {
       <br/>
       <h2>Second API</h2>
       <Practice/>
+      <div>
+        <button popoverTarget="modal">open</button>
+        <div id="modal" popover="auto">
+          <p>iiiiiiiiiiiiiiiiiiiiiii</p>
+          <button popoverTarget="modal">close</button>
+        </div>
+      </div>
     </div>
   );
 }

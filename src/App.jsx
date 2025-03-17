@@ -13,7 +13,7 @@ import Faq from "./Components/Home Page/Body/Faq.jsx";
 import Say from "./Components/Home Page/Footer/Say.jsx";
 import Contact from "./Components/Home Page/Footer/Contact.jsx";
 import Overview from "./Components/About Us/Overview.jsx";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 import PharmacyServices from "./Components/Services/PharmacyServices.jsx";
 import Departments1 from "./Components/Department/Departments1.jsx";
 import Departments2 from "./Components/Department/Departments2.jsx";
@@ -36,6 +36,7 @@ import SubCareer from "./Components/Career/SubCareer.jsx";
 import ImageGallery from "./Components/Media/ImageGallery.jsx";
 import VideoGallery from "./Components/Media/VideoGallery.jsx";
 import ScrollTop from "./Components/ScrollTop.jsx";
+import Say1 from "./Components/Home Page/Footer/Say1.jsx";
 
 
 export default function App() {
@@ -121,6 +122,7 @@ function Homepage({ handle }) {
       <News />
       <Faq />
       <Say />
+      <Say1/>
     </div>
   );
 }
