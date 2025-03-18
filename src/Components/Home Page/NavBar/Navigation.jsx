@@ -44,8 +44,8 @@ const menuItems = [
     dropdown: [
       { name: "Image Gallery", path: "/Media/Image-Gallery" },
       { name: "Video Gallery", path: "/Media/Video-Gallery" },
-      { name: "Blogs" },
-      { name: "News" },
+      { name: "Blogs",path:"Media/Blogs" },
+      { name: "News", path: "/News" },
     ],
   },
   { name: "Our Schedules", path: "/Our-Schedules" },

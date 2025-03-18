@@ -1,15 +1,42 @@
+.main-div-video-galley{
+    line-height: 26px;
+}
+
 .video-image{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    gap:10px;
+    gap:30px;
 }
 
 .iframe-video{
-    height:420px;
-    background-color: pink;
+    height:100%;
+    border:1px solid rgb(174, 172, 172);
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 
 .iframe-video iframe{
-    transform: translate(10px,10px);
     border-radius: 10px;
+}
+
+.label-flex-justify{
+    display:flex;
+    justify-content: space-between;
+}
+.label-gap-flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5px;
+}
+@media(max-width:990px){
+    .video-image{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:575px){
+    .video-image{
+        grid-template-columns: repeat(1,1fr);
+    }
 }

@@ -57,8 +57,8 @@ export default function Contact(){
                     <p>Contact Us</p>
                     <ul className="white-icon">
                         <li><img src="/Image/i1.png" alt="i1"/> <p><Link to="/Map" style={{color:"white"}}>Birjung,Nepal</Link></p></li>
-                        <li><img src="/Image/i2.png" alt="i2"/> <p>+977-9802593288</p></li>
-                        <li><img src="/Image/i3.png" alt="i3"/> <p><Link to="mailto:southcityhimalhospital@gmail.com" style={{color:"white"}}>southcityhimalhospital@gmail.com</Link></p></li>
+                        <li><img src="/Image/i3.png" alt="i2"/> <p>+977-9802593288</p></li>
+                        <li><img src="/Image/i2.png" alt="i3"/> <p><Link to="mailto:southcityhimalhospital@gmail.com" style={{color:"white"}}>southcityhimalhospital@gmail.com</Link></p></li>
                     </ul>
                 </div>
             </div>

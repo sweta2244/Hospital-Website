@@ -1,88 +1,89 @@
 .say {
-    color: white;
-    background-image: url("/Image/background10.png");
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    padding: 48px;
-    margin-bottom: 25rem;
-  }
-  
+  color: white;
+  background-image: url("/Image/background10.png");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  padding: 48px;
+  margin-bottom: 25rem;
+}
+
+.say-button {
+  display: flex;
+  gap: 50%;
+}
+
+.slider-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden; /* Hide overflow to create the sliding effect */
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 70px;
+}
+
+.say-box {
+  background: linear-gradient(100.44deg, #234cbb 2.88%, #00a0aa 104.18%);
+  padding: 30px;
+  width: 80%;
+  border: 10px solid white;
+  border-radius: 45px;
+  box-sizing: border-box;
+}
+
+.say-image img {
+  width: 100px;
+  height: 150px;
+}
+
+.say-image {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.inner-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.downz img {
+  width: 70px;
+  height: 70px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
   .say-button {
     display: flex;
-    gap: 50%;
+    gap: 30%;
+    height: 50px;
   }
-  
-  .slider-container {
-    width: 100%;
-    overflow: hidden; /* Hide overflow to create the sliding effect */
-  }
-  
-  .slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    gap: 70px; 
-  }
-  
-  .say-box {
-    background: linear-gradient(100.44deg, #234cbb 2.88%, #00a0aa 104.18%);
-    width: 100%;
-    padding: 30px;
-    border: 10px solid white;
-    border-radius: 45px;
-    flex: 0 0 calc(100% - 20px); /* Adjust for gap */
-    box-sizing: border-box;
-    text-align: center;
-  }
-  
-  .say-image img {
-    width: 100px;
-    height: 150px;
-  }
-  
-  .say-image {
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .outer-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
+
   .inner-flex {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: column;
   }
-  
-  .downz img {
-    width: 70px;
-    height: 70px;
+
+  .downz {
+    transform: translate(0, 70px);
   }
-  
-  /* Media Queries */
-  @media (max-width: 600px) {
-    .say-button {
-      display: flex;
-      gap: 30%;
-      height: 50px;
-    }
-  
-    .inner-flex {
-      flex-direction: column;
-    }
-  
-    .downz {
-      transform: translate(0, 70px);
-    }
+}
+
+@media (max-width: 452px) {
+  .say {
+    margin-bottom: 35rem !important;
   }
-  
-  @media (max-width: 452px) {
-    .say {
-      margin-bottom: 35rem !important;
-    }
-  }
+}
