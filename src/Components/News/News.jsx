@@ -38,12 +38,12 @@ export default function News() {
     {
       img: "/Image/news1.png",
       intro:
-        "Handover6 of Medical ICU beds and accessories supported to Emergency",
+        "Handover7 of Medical ICU beds and accessories supported to Emergency",
     },
     {
       img: "/Image/news2.png",
       intro:
-        "Handover9 of Medical ICU beds and accessories supported to Emergency",
+        "Handover8 of Medical ICU beds and accessories supported to Emergency",
     },
   ];
 

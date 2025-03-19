@@ -41,6 +41,7 @@ export default function Blogs() {
         link:"/Media/Blogs/6"
     },
   ];
+  
   return (
     <div className="image-gallery">
       <Top1 t1="Media" m1="Home" m2="Image Gallery" />

@@ -37,6 +37,7 @@ import VideoGallery from "./Components/Media/VideoGallery.jsx";
 import ScrollTop from "./Components/ScrollTop.jsx";
 import Say1 from "./Components/Home Page/Footer/Say1.jsx";
 import Blogs from "./Components/Media/Blogs.jsx";
+import Blog1 from "./Components/Media/Blog1.jsx";
 
 
 export default function App() {
@@ -91,7 +92,7 @@ export default function App() {
           <Route path="Media/Video-Gallery" element={<VideoGallery />} />
 
           <Route path="Media/Blogs" element={<Blogs />} />
-          <Route path="Media/Blogs/1" element={<Blogs />} />
+          <Route path="Media/Blogs/1" element={<Blog1 />} />
           <Route path="Media/Blogs/2" element={<Blogs />} />
           <Route path="Media/Blogs/3" element={<Blogs />} />
           <Route path="Media/Blogs/4" element={<Blogs />} />
