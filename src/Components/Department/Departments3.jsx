@@ -67,7 +67,5 @@ function Practice(){
         </ul>
       ):(<p>Loading..</p>)}
     </div>
-  )
-
-  
+  ) 
 }

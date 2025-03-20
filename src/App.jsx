@@ -38,6 +38,11 @@ import ScrollTop from "./Components/ScrollTop.jsx";
 import Say1 from "./Components/Home Page/Footer/Say1.jsx";
 import Blogs from "./Components/Media/Blogs.jsx";
 import Blog1 from "./Components/Media/Blog1.jsx";
+import Blog2 from "./Components/Media/Blog2.jsx";
+import Blog3 from "./Components/Media/Blog3.jsx";
+import Blog4 from "./Components/Media/Blog4.jsx";
+import Blog5 from "./Components/Media/Blog5.jsx";
+import Blog6 from "./Components/Media/Blog6.jsx";
 
 
 export default function App() {
@@ -93,11 +98,11 @@ export default function App() {
 
           <Route path="Media/Blogs" element={<Blogs />} />
           <Route path="Media/Blogs/1" element={<Blog1 />} />
-          <Route path="Media/Blogs/2" element={<Blogs />} />
-          <Route path="Media/Blogs/3" element={<Blogs />} />
-          <Route path="Media/Blogs/4" element={<Blogs />} />
-          <Route path="Media/Blogs/5" element={<Blogs />} />
-          <Route path="Media/Blogs/6" element={<Blogs />} />
+          <Route path="Media/Blogs/2" element={<Blog2 />} />
+          <Route path="Media/Blogs/3" element={<Blog3 />} />
+          <Route path="Media/Blogs/4" element={<Blog4 />} />
+          <Route path="Media/Blogs/5" element={<Blog5 />} />
+          <Route path="Media/Blogs/6" element={<Blog6 />} />
           
 
 
