@@ -136,7 +136,7 @@ function Homepage({ handle }) {
       <Capacity />
       <News />
       <Faq />
-      <Say1/>
+      <Say1 />
     </div>
   );
 }
