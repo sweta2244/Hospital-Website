@@ -45,27 +45,30 @@ export default function Departments3() {
   );
 }
 
-function Practice(){
-  const [data1,setData1]=useState(null);
-  useEffect(()=>{
-    const fetchData=async()=>{
-      try{
-        const response=await fetch('#url');
-        const json=await response.json();
-        setData1(json);
-      } catch(error){
-        console.error("error:",error);
-      }
-    };
-    fetchData();
-  },[])
-  return(
-    <div>
-      {data1?(
-        <ul>
-          {data1.map((i)=><li key={i.id}>{i.name}</li>)}
-        </ul>
-      ):(<p>Loading..</p>)}
-    </div>
-  ) 
-}
+
+
+
+// function Practice(){
+//   const [data1,setData1]=useState(null);
+//   useEffect(()=>{
+//     const fetchData=async()=>{
+//       try{
+//         const response=await fetch('#url');
+//         const json=await response.json();
+//         setData1(json);
+//       } catch(error){
+//         console.error("error:",error);
+//       }
+//     };
+//     fetchData();
+//   },[])
+//   return(
+//     <div>
+//       {data1?(
+//         <ul>
+//           {data1.map((i)=><li key={i.id}>{i.name}</li>)}
+//         </ul>
+//       ):(<p>Loading..</p>)}
+//     </div>
+//   ) 
+// }
