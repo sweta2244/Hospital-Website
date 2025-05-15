@@ -1,8 +1,26 @@
-# React + Vite
+# 🏥 Modern Hospital Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, responsive hospital website** built using **ReactJS**, designed to showcase the hospital's **departments**, **services**, and **contact information**. The site features a clean UI and is optimized for both desktop and mobile devices.
 
-Currently, two official plugins are available:
+🌐 **Live Demo**: [demo-southcityhospital.netlify.app](https://demo-southcityhospital.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📌 Features
+
+- 🏥 Information about hospital departments and facilities
+- 🛠️ Clearly presented list of services offered
+- 📞 Contact section with form or details for easy patient access
+- 📱 Fully responsive design for all screen sizes
+- ⚛️ Built with modern React best practices
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: ReactJS
+- **Styling**: CSS 
+- **Routing**: React Router 
+- **Deployment**: Netlify
+
+
